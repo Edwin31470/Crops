@@ -33,9 +33,9 @@ class CropWindow(QMainWindow):
         
 if __name__ == "__main__":
     crop_simulation = QApplication(sys.argv)
-    window = CropWindow()
-    window.show()
-    window.raise_()
+    crop_window = CropWindow()
+    crop_window.show()
+    crop_window.raise_()
     crop_simulation.exec_()
     
 
